@@ -1,0 +1,303 @@
+GIS Program by Alazar Hailemariam
+
+dbFile:		db01.txt
+script:t	Script01.txt
+log:		outfile.txt
+Start time: Wed May 01 22:16:02 EDT 2013
+Quadtree children are printed in the order SW  SE  NE  NW
+--------------------------------------------------------------------------------
+
+World Boundaries are set to:
+		138600
+	-286890		-285990
+		137700
+--------------------------------------------------------------------------------
+;
+;Import Data:
+Command 1:	import		VA_Monterey.txt
+
+Imported Features by name:	63
+Longest probe sequence:	1
+Imported Locations:	63
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 2:	debug		quad
+
+ ------*
+------[(-286627, 137860), 2346] [(-286628, 137896), 7435] 
+---@
+------[(-286479, 137945), 2612] [(-286502, 138023), 3037] [(-286523, 138047), 7309] [(-286562, 138080), 8654] 
+ ------*
+---------[(-286433, 137756), 953] [(-286358, 137773), 1201] [(-286376, 137772), 6560] [(-286356, 137772), 8081] 
+---------[(-286314, 137725), 2877] [(-286224, 137708), 3720] 
+------@
+------------[(-286304, 137827), 1361] [(-286311, 137845), 4128] 
+ ------------*
+---------@
+------------[(-286253, 137904), 1513] [(-286219, 137891), 5669] [(-286229, 137889), 7818] 
+ ------------*
+ ---------*
+------[(-286212, 137722), 4975] [(-286205, 137731), 5259] 
+---@
+ ------*
+------[(-286438, 137942), 675] [(-286269, 138108), 3593] [(-286231, 138105), 4530] [(-286374, 138012), 6434] 
+@
+ ---------*
+---------[(-286273, 138193), 6693] 
+------@
+ ---------*
+------------[(-286416, 138293), 7069] 
+------------[(-286345, 138312), 4696] [(-286337, 138287), 8513] 
+---------@
+------------[(-286353, 138352), 7188] 
+------------[(-286392, 138367), 265] [(-286393, 138370), 5991] 
+------[(-286213, 138302), 4409] 
+---@
+ ------*
+---------[(-286329, 138414), 4819] 
+------------[(-286301, 138424), 5419] [(-286324, 138413), 5829] 
+ ------------*
+---------@
+------------[(-286269, 138486), 4256] 
+------------[(-286319, 138445), 3438] [(-286321, 138438), 6142] 
+------@
+------------[(-286299, 138530), 2100] [(-286316, 138492), 6940] 
+------------[(-286231, 138536), 1822, 5102] 
+---------@
+------------[(-286263, 138580), 2223] 
+------------[(-286313, 138576), 1670] 
+ ------------*
+ ------------*
+---------@
+------------[(-286379, 138600), 387] [(-286342, 138593), 515] [(-286358, 138591), 3162] [(-286383, 138597), 7942] 
+------------[(-286403, 138593), 1078] [(-286390, 138593), 1946] [(-286428, 138574), 6811] 
+ ------*
+---------[(-286561, 138234), 6294] 
+---------[(-286517, 138257), 7562] 
+------@
+ ------------*
+------------------[(-286484, 138266), 2473] [(-286486, 138267), 8225] 
+ ------------------*
+---------------@
+ ------------------*
+------------------[(-286490, 138284), 7682] [(-286486, 138282), 8369] [(-286491, 138282), 8792] 
+ ---------------*
+------------@
+---------------[(-286449, 138309), 797] 
+ ---------------*
+---------@
+ ------------*
+------------[(-286500, 138341), 3879] 
+---------[(-286638, 138326), 2754] [(-286582, 138315), 4001] 
+---@
+------[(-286612, 138532), 3314] [(-286475, 138508), 5548] 
+ ------*
+
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 3:	debug		hash
+
+--------------------------------------------------------------------------------
+Format of display is
+Slot number: data record
+Current table size is 1019
+Number of elements in table is 63
+Slot: 19  	Name: West Strait Creek, VA                                        	Offset: 5829
+Slot: 21  	Name: Blue Grass, VA                                               	Offset: 387
+Slot: 24  	Name: Seldom Seen Hollow, VA                                       	Offset: 4530
+Slot: 39  	Name: Elk Run, VA                                                  	Offset: 1670
+Slot: 40  	Name: New Salem Church, VA                                         	Offset: 4128
+Slot: 47  	Name: Hamilton Chapel, VA                                          	Offset: 2346
+Slot: 51  	Name: Monterey Methodist Episcopal Church, VA                      	Offset: 8369
+Slot: 57  	Name: Simmons Run, VA                                              	Offset: 4819
+Slot: 85  	Name: Monterey District, VA                                        	Offset: 8654
+Slot: 98  	Name: Rich Hills, VA                                               	Offset: 7069
+Slot: 143  	Name: Central Church, VA                                           	Offset: 1078
+Slot: 161  	Name: White Run, VA                                                	Offset: 5991
+Slot: 169  	Name: Claylick Hollow, VA                                          	Offset: 1201
+Slot: 195  	Name: Peck Run, VA                                                 	Offset: 4256
+Slot: 200  	Name: Asbury Church, VA                                            	Offset: 265
+Slot: 205  	Name: Bear Mountain, VA                                            	Offset: 6434
+Slot: 222  	Name: Hightown Church, VA                                          	Offset: 2754
+Slot: 238  	Name: Thorny Bottom Church, VA                                     	Offset: 5419
+Slot: 276  	Name: Clover Creek, VA                                             	Offset: 6560
+Slot: 301  	Name: Highland High School, VA                                     	Offset: 2473
+Slot: 315  	Name: Wooden Run, VA                                               	Offset: 6142
+Slot: 323  	Name: Southall Chapel, VA                                          	Offset: 4975
+Slot: 325  	Name: Sounding Knob, VA                                            	Offset: 7309
+Slot: 352  	Name: Bluegrass Valley, VA                                         	Offset: 515
+Slot: 358  	Name: Seybert Hills, VA                                            	Offset: 7188
+Slot: 365  	Name: Swope Hollow, VA                                             	Offset: 5259
+Slot: 367  	Name: Strait Creek, VA                                             	Offset: 5102
+Slot: 373  	Name: Miracle Ridge, VA                                            	Offset: 3879
+Slot: 399  	Name: Davis Run, VA                                                	Offset: 1513
+Slot: 409  	Name: Town of Monterey, VA                                         	Offset: 8792
+Slot: 426  	Name: Meadow Draft, VA                                             	Offset: 3720
+Slot: 440  	Name: Union Chapel, VA                                             	Offset: 5548
+Slot: 455  	Name: Little Doe Hill, VA                                          	Offset: 3593
+Slot: 492  	Name: Laurel Run, VA                                               	Offset: 3438
+Slot: 534  	Name: Frank Run, VA                                                	Offset: 1946
+Slot: 535  	Name: New Hampden, VA                                              	Offset: 6811
+Slot: 538  	Name: Vance Hollow, VA                                             	Offset: 5669
+Slot: 553  	Name: Monterey Mountain, VA                                        	Offset: 4001
+Slot: 571  	Name: Trimble Knob, VA                                             	Offset: 7562
+Slot: 595  	Name: Lantz Mountain, VA                                           	Offset: 3314
+Slot: 601  	Name: Strait Creek School (historical), VA                         	Offset: 8513
+Slot: 644  	Name: Gulf Mountain, VA                                            	Offset: 2223
+Slot: 647  	Name: Smith Field, VA                                              	Offset: 7818
+Slot: 665  	Name: Clover Creek Presbyterian Church, VA                         	Offset: 8081
+Slot: 668  	Name: Possum Trot, VA                                              	Offset: 6940
+Slot: 674  	Name: Buck Hill, VA                                                	Offset: 675
+Slot: 677  	Name: Trimble, VA                                                  	Offset: 7435
+Slot: 696  	Name: Barren Rock, VA                                              	Offset: 4409
+Slot: 707  	Name: Hupman Valley, VA                                            	Offset: 2877
+Slot: 719  	Name: Monterey, VA                                                 	Offset: 7682
+Slot: 752  	Name: Burners Run, VA                                              	Offset: 797
+Slot: 763  	Name: Doe Hill, VA                                                 	Offset: 6693
+Slot: 764  	Name: Blue Grass School (historical), VA                           	Offset: 7942
+Slot: 779  	Name: Highland Wildlife Management Area, VA                        	Offset: 2612
+Slot: 797  	Name: Highland Elementary School, VA                               	Offset: 8225
+Slot: 806  	Name: Crab Run, VA                                                 	Offset: 1361
+Slot: 809  	Name: Hannah Field Airport, VA                                     	Offset: 6294
+Slot: 814  	Name: Ginseng Mountain, VA                                         	Offset: 2100
+Slot: 853  	Name: Jack Mountain, VA                                            	Offset: 3037
+Slot: 864  	Name: Mount Carlyle, VA                                            	Offset: 953
+Slot: 873  	Name: Forks of Waters, VA                                          	Offset: 1822
+Slot: 920  	Name: Key Run, VA                                                  	Offset: 3162
+Slot: 949  	Name: Seybert Chapel, VA                                           	Offset: 4696
+;
+;Name Search
+Command 4:	what_is		Trimble Knob, VA
+
+	The following features were found for Trimble Knob, VA
+7562:	Highland	0793517W	382417N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 5:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+7562:     1496326|Trimble Knob|Summit|VA|51|Highland|091|382417N|0793517W|38.404843|-79.5881037|||||952|3123|Monterey|09/28/1979|
+LRU
+--------------------------------------------------------------------------------
+;
+;Location Search:
+Command 6:	what_is_at		382812N 0793156W
+
+	The following features were found at	0793156W	382812N
+6940:	Possum Trot	Highland, VA
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 7:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+6940:     1496110|Possum Trot|Populated Place|VA|51|Highland|091|382812N|0793156W|38.4701196|-79.5322693|||||768|2520|Monterey|09/28/1979|
+7562:     1496326|Trimble Knob|Summit|VA|51|Highland|091|382417N|0793517W|38.404843|-79.5881037|||||952|3123|Monterey|09/28/1979|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 8:	what_is		Swope Hollow, VA
+
+	The following features were found for Swope Hollow, VA
+5259:	Highland	0793005W	381531N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 9:	what_is		Possum Trot, VA
+
+	The following features were found for Possum Trot, VA
+6940:	Highland	0793156W	382812N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 10:	what_is		Blue Grass, VA
+
+	The following features were found for Blue Grass, VA
+387:	Highland	0793259W	383000N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 11:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+387:      1481852|Blue Grass|Populated Place|VA|51|Highland|091|383000N|0793259W|38.5001188|-79.5497702|||||777|2549|Monterey|09/28/1979|
+6940:     1496110|Possum Trot|Populated Place|VA|51|Highland|091|382812N|0793156W|38.4701196|-79.5322693|||||768|2520|Monterey|09/28/1979|
+5259:     1487758|Swope Hollow|Valley|VA|51|Highland|091|381531N|0793005W|38.2587359|-79.5014329|381619N|0793014W|38.2719444|-79.5038889|541|1775|Monterey SE|09/28/1979|
+7562:     1496326|Trimble Knob|Summit|VA|51|Highland|091|382417N|0793517W|38.404843|-79.5881037|||||952|3123|Monterey|09/28/1979|
+LRU
+--------------------------------------------------------------------------------
+;
+;Location Search:
+Command 12:	what_is_at		382145N 0793031W
+
+	The following features were found at	0793031W	382145N
+4530:	Seldom Seen Hollow	Highland, VA
+--------------------------------------------------------------------------------
+;
+;Location Search:
+Command 13:	what_is_at		382442N 0793451W
+
+	The following features were found at	0793451W	382442N
+8792:	Town of Monterey	Highland, VA
+--------------------------------------------------------------------------------
+;
+;Location Search:
+Command 14:	what_is_at		382607N 0793312W
+
+	The following features were found at	0793312W	382607N
+265:	Asbury Church	Highland, VA
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 15:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+265:      1481345|Asbury Church|Church|VA|51|Highland|091|382607N|0793312W|38.4353981|-79.5533807|||||818|2684|Monterey|09/28/1979|
+8792:     2391311|Town of Monterey|Civil|VA|51|Highland|091|382442N|0793451W|38.4115829|-79.580854|||||884|2900|Monterey|02/19/2008|
+4530:     1486995|Seldom Seen Hollow|Valley|VA|51|Highland|091|382145N|0793031W|38.3626223|-79.5086563|382227N|0793004W|38.3741667|-79.5011111|750|2461|Monterey SE|09/28/1979|
+387:      1481852|Blue Grass|Populated Place|VA|51|Highland|091|383000N|0793259W|38.5001188|-79.5497702|||||777|2549|Monterey|09/28/1979|
+6940:     1496110|Possum Trot|Populated Place|VA|51|Highland|091|382812N|0793156W|38.4701196|-79.5322693|||||768|2520|Monterey|09/28/1979|
+5259:     1487758|Swope Hollow|Valley|VA|51|Highland|091|381531N|0793005W|38.2587359|-79.5014329|381619N|0793014W|38.2719444|-79.5038889|541|1775|Monterey SE|09/28/1979|
+7562:     1496326|Trimble Knob|Summit|VA|51|Highland|091|382417N|0793517W|38.404843|-79.5881037|||||952|3123|Monterey|09/28/1979|
+LRU
+--------------------------------------------------------------------------------
+;
+;Location Search:
+Command 16:	what_is_at		382856N 0793031W
+
+	The following features were found at	0793031W	382856N
+1822:	Forks of Waters	Highland, VA
+5102:	Strait Creek	Highland, VA
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 17:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+5102:     1487661|Strait Creek|Stream|VA|51|Highland|091|382856N|0793031W|38.4823417|-79.5086575|382442N|0793222W|38.4116667|-79.5394444|705|2313|Monterey|09/28/1979|
+1822:     1483492|Forks of Waters|Locale|VA|51|Highland|091|382856N|0793031W|38.4823417|-79.5086575|||||705|2313|Monterey|09/28/1979|
+265:      1481345|Asbury Church|Church|VA|51|Highland|091|382607N|0793312W|38.4353981|-79.5533807|||||818|2684|Monterey|09/28/1979|
+8792:     2391311|Town of Monterey|Civil|VA|51|Highland|091|382442N|0793451W|38.4115829|-79.580854|||||884|2900|Monterey|02/19/2008|
+4530:     1486995|Seldom Seen Hollow|Valley|VA|51|Highland|091|382145N|0793031W|38.3626223|-79.5086563|382227N|0793004W|38.3741667|-79.5011111|750|2461|Monterey SE|09/28/1979|
+387:      1481852|Blue Grass|Populated Place|VA|51|Highland|091|383000N|0793259W|38.5001188|-79.5497702|||||777|2549|Monterey|09/28/1979|
+6940:     1496110|Possum Trot|Populated Place|VA|51|Highland|091|382812N|0793156W|38.4701196|-79.5322693|||||768|2520|Monterey|09/28/1979|
+5259:     1487758|Swope Hollow|Valley|VA|51|Highland|091|381531N|0793005W|38.2587359|-79.5014329|381619N|0793014W|38.2719444|-79.5038889|541|1775|Monterey SE|09/28/1979|
+7562:     1496326|Trimble Knob|Summit|VA|51|Highland|091|382417N|0793517W|38.404843|-79.5881037|||||952|3123|Monterey|09/28/1979|
+LRU
+--------------------------------------------------------------------------------
+;
+;Exit
+Command 18:	quit
+
+Terminating execution of commands.
+--------------------------------------------------------------------------------
+End Time: Wed May 01 22:19:03 EDT 2013
