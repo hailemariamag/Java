@@ -1,0 +1,513 @@
+GIS Program by Alazar Hailemariam
+
+dbFile:		db04.txt
+script:t	DemoScript04.txt
+log:		Log04.txt
+Start time: Fri May 03 16:34:58 EDT 2013
+Quadtree children are printed in the order SW  SE  NE  NW
+--------------------------------------------------------------------------------
+
+World Boundaries are set to:
+		147600
+	-32400		-18000
+		133200
+--------------------------------------------------------------------------------
+;
+;Import Data:
+Command 1:	import		CO_Ouray.txt
+
+Imported Features by name:	567
+Longest probe sequence:	9
+Imported Locations:	567
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 2:	what_is		United States Mountain, CO
+
+	The following features were found for United States Mountain, CO
+11475:	Ouray	1074421W	375724N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 3:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 4:	what_is		The Blowout, CO
+
+	The following features were found for The Blowout, CO
+41387:	Ouray	1073942W	380223N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 5:	what_is		Skyrocket Creek, CO
+
+	The following features were found for Skyrocket Creek, CO
+41502:	Ouray	1074028W	380149N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 6:	what_is		Kerr-Ouray Number Two Mine, CO
+
+	The following features were found for Kerr-Ouray Number Two Mine, CO
+63707:	Ouray	1074039W	375525N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 7:	what_is		Telluride Peak, CO
+
+	The following features were found for Telluride Peak, CO
+5619:	Ouray	1074408W	375529N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 8:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+5619:     187216|Telluride Peak|Summit|CO|08|Ouray|091|375529N|1074408W|37.9247168|-107.7356168|||||4108|13478|Ironton|10/13/1978|
+63707:    1734611|Kerr-Ouray Number Two Mine|Mine|CO|08|Ouray|091|375525N|1074039W|37.9236062|-107.6775606|||||3221|10567|Ironton|05/14/1997|
+41502:    188616|Skyrocket Creek|Stream|CO|08|Ouray|091|380149N|1074028W|38.0302714|-107.6745043|380213N|1073910W|38.0369444|-107.6527778|2340|7677|Ouray|10/13/1978|
+41387:    188615|The Blowout|Cliff|CO|08|Ouray|091|380223N|1073942W|38.0397158|-107.6617264|||||2899|9511|Ouray|10/13/1978|
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 9:	what_is		Thistledown, CO
+
+	The following features were found for Thistledown, CO
+11911:	Ouray	1074159W	375937N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 10:	what_is		Chaffe Gulch Dentention Number 6 Dam, CO
+
+	The following features were found for Chaffe Gulch Dentention Number 6 Dam, CO
+53694:	Ouray	1074320W	381624N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 11:	what_is		Difficulty Creek, CO
+
+	The following features were found for Difficulty Creek, CO
+46676:	Ouray	1073514W	380354N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 12:	what_is		Dallas, CO
+
+	The following features were found for Dallas, CO
+28367:	Ouray	1074441W	381100N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 13:	what_is		Wildhorse Peak, CO
+
+	The following features were found for Wildhorse Peak, CO
+46239:	Ouray	1073439W	380048N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 14:	what_is		Terrible Mine, CO
+
+	The following features were found for Terrible Mine, CO
+58553:	Ouray	1074629W	375815N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 15:	what_is		Devils Armchair, CO
+
+	The following features were found for Devils Armchair, CO
+52941:	Chaffee	1061242W	382532N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 16:	what_is		Little Balm of Gilead Mine, CO
+
+	The following features were found for Little Balm of Gilead Mine, CO
+64197:	Ouray	1073914W	375856N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 17:	what_is		Chief Ouray and Chipeta Memorial, CO
+
+	The following features were found for Chief Ouray and Chipeta Memorial, CO
+74154:	Montrose	1075208W	382605N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 18:	what_is		Paradox Road, CO
+
+	The following features were found for Paradox Road, CO
+932:	Ouray	1080439W	381800N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 19:	what_is		American Girl Mine, CO
+
+	The following features were found for American Girl Mine, CO
+8040:	Ouray	1074129W	375521N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 20:	what_is		Marshall Pass, CO
+
+	The following features were found for Marshall Pass, CO
+50605:	Saguache	1061450W	382329N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 21:	what_is		Dipping Vat Creek, CO
+
+	The following features were found for Dipping Vat Creek, CO
+24928:	Ouray	1075227W	381207N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 22:	what_is		South Baldy, CO
+
+	The following features were found for South Baldy, CO
+35964:	Ouray	1074959W	380444N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 23:	what_is		Alkali Ditch Number 2, CO
+
+	The following features were found for Alkali Ditch Number 2, CO
+30851:	Ouray	1074153W	381235N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 24:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+30851:    188437|Alkali Ditch Number 2|Canal|CO|08|Ouray|091|381235N|1074153W|38.2097125|-107.6981145|||||2211|7254|Dallas|10/13/1978|
+35964:    188574|South Baldy|Summit|CO|08|Ouray|091|380444N|1074959W|38.0788807|-107.8331178|||||2993|9819|Mount Sneffels|10/13/1978|
+24928:    188395|Dipping Vat Creek|Stream|CO|08|Ouray|091|381207N|1075227W|38.201934|-107.8742295|381128N|1075513W|38.1911008|-107.9203422|2579|8461|Ridgway|10/13/1978|
+50605:    189977|Marshall Pass|Gap|CO|08|Saguache|109|382329N|1061450W|38.3913877|-106.2472458|||||3317|10882|Mount Ouray|10/13/1978|
+8040:     187235|American Girl Mine|Mine|CO|08|Ouray|091|375521N|1074129W|37.922495|-107.6914496|||||3152|10341|Ironton|10/13/1978|
+932:      185940|Paradox Road|Trail|CO|08|Ouray|091|381800N|1080439W|38.2999884|-108.0775708|||||2822|9258|Pryor Creek|10/13/1978|
+74154:    1795267|Chief Ouray and Chipeta Memorial|Park|CO|08|Montrose|085|382605N|1075208W|38.4347091|-107.8689513|||||1807|5928|Montrose East|05/18/1998|
+64197:    1734615|Little Balm of Gilead Mine|Mine|CO|08|Ouray|091|375856N|1073914W|37.9822168|-107.6539488|||||2754|9035|Ironton|05/14/1997|
+52941:    197475|Devils Armchair|Basin|CO|08|Chaffee|015|382532N|1061242W|38.425554|-106.2116884|||||3625|11893|Mount Ouray|07/01/1992|
+58553:    1734503|Terrible Mine|Mine|CO|08|Ouray|091|375815N|1074629W|37.970827|-107.7747838|||||3659|12004|Telluride|05/14/1997|
+46239:    188653|Wildhorse Peak|Summit|CO|08|Ouray|091|380048N|1073439W|38.0133281|-107.5775592|||||4037|13245|Wetterhorn Peak|10/13/1978|
+28367:    188420|Dallas|Populated Place|CO|08|Ouray|091|381100N|1074441W|38.1833236|-107.7447813|||||2110|6922|Dallas|10/13/1978|
+46676:    188658|Difficulty Creek|Stream|CO|08|Ouray|091|380354N|1073514W|38.0649939|-107.5872816|380049N|1073621W|38.0136111|-107.6058333|2700|8858|Wetterhorn Peak|10/13/1978|
+53694:    200451|Chaffe Gulch Dentention Number 6 Dam|Dam|CO|08|Ouray|091|381624N|1074320W|38.2733223|-107.7222808|||||2138|7014|Buckhorn Lakes|09/01/1994|
+11911:    187267|Thistledown|Populated Place|CO|08|Ouray|091|375937N|1074159W|37.9936051|-107.6997825|||||2661|8730|Ironton|10/13/1978|
+5619:     187216|Telluride Peak|Summit|CO|08|Ouray|091|375529N|1074408W|37.9247168|-107.7356168|||||4108|13478|Ironton|10/13/1978|
+63707:    1734611|Kerr-Ouray Number Two Mine|Mine|CO|08|Ouray|091|375525N|1074039W|37.9236062|-107.6775606|||||3221|10567|Ironton|05/14/1997|
+41502:    188616|Skyrocket Creek|Stream|CO|08|Ouray|091|380149N|1074028W|38.0302714|-107.6745043|380213N|1073910W|38.0369444|-107.6527778|2340|7677|Ouray|10/13/1978|
+41387:    188615|The Blowout|Cliff|CO|08|Ouray|091|380223N|1073942W|38.0397158|-107.6617264|||||2899|9511|Ouray|10/13/1978|
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 25:	what_is		South Baldy, CO
+
+	The following features were found for South Baldy, CO
+35964:	Ouray	1074959W	380444N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 26:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+35964:    188574|South Baldy|Summit|CO|08|Ouray|091|380444N|1074959W|38.0788807|-107.8331178|||||2993|9819|Mount Sneffels|10/13/1978|
+30851:    188437|Alkali Ditch Number 2|Canal|CO|08|Ouray|091|381235N|1074153W|38.2097125|-107.6981145|||||2211|7254|Dallas|10/13/1978|
+24928:    188395|Dipping Vat Creek|Stream|CO|08|Ouray|091|381207N|1075227W|38.201934|-107.8742295|381128N|1075513W|38.1911008|-107.9203422|2579|8461|Ridgway|10/13/1978|
+50605:    189977|Marshall Pass|Gap|CO|08|Saguache|109|382329N|1061450W|38.3913877|-106.2472458|||||3317|10882|Mount Ouray|10/13/1978|
+8040:     187235|American Girl Mine|Mine|CO|08|Ouray|091|375521N|1074129W|37.922495|-107.6914496|||||3152|10341|Ironton|10/13/1978|
+932:      185940|Paradox Road|Trail|CO|08|Ouray|091|381800N|1080439W|38.2999884|-108.0775708|||||2822|9258|Pryor Creek|10/13/1978|
+74154:    1795267|Chief Ouray and Chipeta Memorial|Park|CO|08|Montrose|085|382605N|1075208W|38.4347091|-107.8689513|||||1807|5928|Montrose East|05/18/1998|
+64197:    1734615|Little Balm of Gilead Mine|Mine|CO|08|Ouray|091|375856N|1073914W|37.9822168|-107.6539488|||||2754|9035|Ironton|05/14/1997|
+52941:    197475|Devils Armchair|Basin|CO|08|Chaffee|015|382532N|1061242W|38.425554|-106.2116884|||||3625|11893|Mount Ouray|07/01/1992|
+58553:    1734503|Terrible Mine|Mine|CO|08|Ouray|091|375815N|1074629W|37.970827|-107.7747838|||||3659|12004|Telluride|05/14/1997|
+46239:    188653|Wildhorse Peak|Summit|CO|08|Ouray|091|380048N|1073439W|38.0133281|-107.5775592|||||4037|13245|Wetterhorn Peak|10/13/1978|
+28367:    188420|Dallas|Populated Place|CO|08|Ouray|091|381100N|1074441W|38.1833236|-107.7447813|||||2110|6922|Dallas|10/13/1978|
+46676:    188658|Difficulty Creek|Stream|CO|08|Ouray|091|380354N|1073514W|38.0649939|-107.5872816|380049N|1073621W|38.0136111|-107.6058333|2700|8858|Wetterhorn Peak|10/13/1978|
+53694:    200451|Chaffe Gulch Dentention Number 6 Dam|Dam|CO|08|Ouray|091|381624N|1074320W|38.2733223|-107.7222808|||||2138|7014|Buckhorn Lakes|09/01/1994|
+11911:    187267|Thistledown|Populated Place|CO|08|Ouray|091|375937N|1074159W|37.9936051|-107.6997825|||||2661|8730|Ironton|10/13/1978|
+5619:     187216|Telluride Peak|Summit|CO|08|Ouray|091|375529N|1074408W|37.9247168|-107.7356168|||||4108|13478|Ironton|10/13/1978|
+63707:    1734611|Kerr-Ouray Number Two Mine|Mine|CO|08|Ouray|091|375525N|1074039W|37.9236062|-107.6775606|||||3221|10567|Ironton|05/14/1997|
+41502:    188616|Skyrocket Creek|Stream|CO|08|Ouray|091|380149N|1074028W|38.0302714|-107.6745043|380213N|1073910W|38.0369444|-107.6527778|2340|7677|Ouray|10/13/1978|
+41387:    188615|The Blowout|Cliff|CO|08|Ouray|091|380223N|1073942W|38.0397158|-107.6617264|||||2899|9511|Ouray|10/13/1978|
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 27:	what_is		Devils Armchair, CO
+
+	The following features were found for Devils Armchair, CO
+52941:	Chaffee	1061242W	382532N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 28:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+52941:    197475|Devils Armchair|Basin|CO|08|Chaffee|015|382532N|1061242W|38.425554|-106.2116884|||||3625|11893|Mount Ouray|07/01/1992|
+35964:    188574|South Baldy|Summit|CO|08|Ouray|091|380444N|1074959W|38.0788807|-107.8331178|||||2993|9819|Mount Sneffels|10/13/1978|
+30851:    188437|Alkali Ditch Number 2|Canal|CO|08|Ouray|091|381235N|1074153W|38.2097125|-107.6981145|||||2211|7254|Dallas|10/13/1978|
+24928:    188395|Dipping Vat Creek|Stream|CO|08|Ouray|091|381207N|1075227W|38.201934|-107.8742295|381128N|1075513W|38.1911008|-107.9203422|2579|8461|Ridgway|10/13/1978|
+50605:    189977|Marshall Pass|Gap|CO|08|Saguache|109|382329N|1061450W|38.3913877|-106.2472458|||||3317|10882|Mount Ouray|10/13/1978|
+8040:     187235|American Girl Mine|Mine|CO|08|Ouray|091|375521N|1074129W|37.922495|-107.6914496|||||3152|10341|Ironton|10/13/1978|
+932:      185940|Paradox Road|Trail|CO|08|Ouray|091|381800N|1080439W|38.2999884|-108.0775708|||||2822|9258|Pryor Creek|10/13/1978|
+74154:    1795267|Chief Ouray and Chipeta Memorial|Park|CO|08|Montrose|085|382605N|1075208W|38.4347091|-107.8689513|||||1807|5928|Montrose East|05/18/1998|
+64197:    1734615|Little Balm of Gilead Mine|Mine|CO|08|Ouray|091|375856N|1073914W|37.9822168|-107.6539488|||||2754|9035|Ironton|05/14/1997|
+58553:    1734503|Terrible Mine|Mine|CO|08|Ouray|091|375815N|1074629W|37.970827|-107.7747838|||||3659|12004|Telluride|05/14/1997|
+46239:    188653|Wildhorse Peak|Summit|CO|08|Ouray|091|380048N|1073439W|38.0133281|-107.5775592|||||4037|13245|Wetterhorn Peak|10/13/1978|
+28367:    188420|Dallas|Populated Place|CO|08|Ouray|091|381100N|1074441W|38.1833236|-107.7447813|||||2110|6922|Dallas|10/13/1978|
+46676:    188658|Difficulty Creek|Stream|CO|08|Ouray|091|380354N|1073514W|38.0649939|-107.5872816|380049N|1073621W|38.0136111|-107.6058333|2700|8858|Wetterhorn Peak|10/13/1978|
+53694:    200451|Chaffe Gulch Dentention Number 6 Dam|Dam|CO|08|Ouray|091|381624N|1074320W|38.2733223|-107.7222808|||||2138|7014|Buckhorn Lakes|09/01/1994|
+11911:    187267|Thistledown|Populated Place|CO|08|Ouray|091|375937N|1074159W|37.9936051|-107.6997825|||||2661|8730|Ironton|10/13/1978|
+5619:     187216|Telluride Peak|Summit|CO|08|Ouray|091|375529N|1074408W|37.9247168|-107.7356168|||||4108|13478|Ironton|10/13/1978|
+63707:    1734611|Kerr-Ouray Number Two Mine|Mine|CO|08|Ouray|091|375525N|1074039W|37.9236062|-107.6775606|||||3221|10567|Ironton|05/14/1997|
+41502:    188616|Skyrocket Creek|Stream|CO|08|Ouray|091|380149N|1074028W|38.0302714|-107.6745043|380213N|1073910W|38.0369444|-107.6527778|2340|7677|Ouray|10/13/1978|
+41387:    188615|The Blowout|Cliff|CO|08|Ouray|091|380223N|1073942W|38.0397158|-107.6617264|||||2899|9511|Ouray|10/13/1978|
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 29:	what_is		United States Mountain, CO
+
+	The following features were found for United States Mountain, CO
+11475:	Ouray	1074421W	375724N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 30:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+52941:    197475|Devils Armchair|Basin|CO|08|Chaffee|015|382532N|1061242W|38.425554|-106.2116884|||||3625|11893|Mount Ouray|07/01/1992|
+35964:    188574|South Baldy|Summit|CO|08|Ouray|091|380444N|1074959W|38.0788807|-107.8331178|||||2993|9819|Mount Sneffels|10/13/1978|
+30851:    188437|Alkali Ditch Number 2|Canal|CO|08|Ouray|091|381235N|1074153W|38.2097125|-107.6981145|||||2211|7254|Dallas|10/13/1978|
+24928:    188395|Dipping Vat Creek|Stream|CO|08|Ouray|091|381207N|1075227W|38.201934|-107.8742295|381128N|1075513W|38.1911008|-107.9203422|2579|8461|Ridgway|10/13/1978|
+50605:    189977|Marshall Pass|Gap|CO|08|Saguache|109|382329N|1061450W|38.3913877|-106.2472458|||||3317|10882|Mount Ouray|10/13/1978|
+8040:     187235|American Girl Mine|Mine|CO|08|Ouray|091|375521N|1074129W|37.922495|-107.6914496|||||3152|10341|Ironton|10/13/1978|
+932:      185940|Paradox Road|Trail|CO|08|Ouray|091|381800N|1080439W|38.2999884|-108.0775708|||||2822|9258|Pryor Creek|10/13/1978|
+74154:    1795267|Chief Ouray and Chipeta Memorial|Park|CO|08|Montrose|085|382605N|1075208W|38.4347091|-107.8689513|||||1807|5928|Montrose East|05/18/1998|
+64197:    1734615|Little Balm of Gilead Mine|Mine|CO|08|Ouray|091|375856N|1073914W|37.9822168|-107.6539488|||||2754|9035|Ironton|05/14/1997|
+58553:    1734503|Terrible Mine|Mine|CO|08|Ouray|091|375815N|1074629W|37.970827|-107.7747838|||||3659|12004|Telluride|05/14/1997|
+46239:    188653|Wildhorse Peak|Summit|CO|08|Ouray|091|380048N|1073439W|38.0133281|-107.5775592|||||4037|13245|Wetterhorn Peak|10/13/1978|
+28367:    188420|Dallas|Populated Place|CO|08|Ouray|091|381100N|1074441W|38.1833236|-107.7447813|||||2110|6922|Dallas|10/13/1978|
+46676:    188658|Difficulty Creek|Stream|CO|08|Ouray|091|380354N|1073514W|38.0649939|-107.5872816|380049N|1073621W|38.0136111|-107.6058333|2700|8858|Wetterhorn Peak|10/13/1978|
+53694:    200451|Chaffe Gulch Dentention Number 6 Dam|Dam|CO|08|Ouray|091|381624N|1074320W|38.2733223|-107.7222808|||||2138|7014|Buckhorn Lakes|09/01/1994|
+11911:    187267|Thistledown|Populated Place|CO|08|Ouray|091|375937N|1074159W|37.9936051|-107.6997825|||||2661|8730|Ironton|10/13/1978|
+5619:     187216|Telluride Peak|Summit|CO|08|Ouray|091|375529N|1074408W|37.9247168|-107.7356168|||||4108|13478|Ironton|10/13/1978|
+63707:    1734611|Kerr-Ouray Number Two Mine|Mine|CO|08|Ouray|091|375525N|1074039W|37.9236062|-107.6775606|||||3221|10567|Ironton|05/14/1997|
+41502:    188616|Skyrocket Creek|Stream|CO|08|Ouray|091|380149N|1074028W|38.0302714|-107.6745043|380213N|1073910W|38.0369444|-107.6527778|2340|7677|Ouray|10/13/1978|
+41387:    188615|The Blowout|Cliff|CO|08|Ouray|091|380223N|1073942W|38.0397158|-107.6617264|||||2899|9511|Ouray|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 31:	what_is		Blaine Draw, CO
+
+	The following features were found for Blaine Draw, CO
+37694:	Ouray	1074755W	380512N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 32:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+37694:    188587|Blaine Draw|Valley|CO|08|Ouray|091|380512N|1074755W|38.0866584|-107.7986724|380328N|1074805W|38.0577778|-107.8013889|2493|8179|Mount Sneffels|10/13/1978|
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+52941:    197475|Devils Armchair|Basin|CO|08|Chaffee|015|382532N|1061242W|38.425554|-106.2116884|||||3625|11893|Mount Ouray|07/01/1992|
+35964:    188574|South Baldy|Summit|CO|08|Ouray|091|380444N|1074959W|38.0788807|-107.8331178|||||2993|9819|Mount Sneffels|10/13/1978|
+30851:    188437|Alkali Ditch Number 2|Canal|CO|08|Ouray|091|381235N|1074153W|38.2097125|-107.6981145|||||2211|7254|Dallas|10/13/1978|
+24928:    188395|Dipping Vat Creek|Stream|CO|08|Ouray|091|381207N|1075227W|38.201934|-107.8742295|381128N|1075513W|38.1911008|-107.9203422|2579|8461|Ridgway|10/13/1978|
+50605:    189977|Marshall Pass|Gap|CO|08|Saguache|109|382329N|1061450W|38.3913877|-106.2472458|||||3317|10882|Mount Ouray|10/13/1978|
+8040:     187235|American Girl Mine|Mine|CO|08|Ouray|091|375521N|1074129W|37.922495|-107.6914496|||||3152|10341|Ironton|10/13/1978|
+932:      185940|Paradox Road|Trail|CO|08|Ouray|091|381800N|1080439W|38.2999884|-108.0775708|||||2822|9258|Pryor Creek|10/13/1978|
+74154:    1795267|Chief Ouray and Chipeta Memorial|Park|CO|08|Montrose|085|382605N|1075208W|38.4347091|-107.8689513|||||1807|5928|Montrose East|05/18/1998|
+64197:    1734615|Little Balm of Gilead Mine|Mine|CO|08|Ouray|091|375856N|1073914W|37.9822168|-107.6539488|||||2754|9035|Ironton|05/14/1997|
+58553:    1734503|Terrible Mine|Mine|CO|08|Ouray|091|375815N|1074629W|37.970827|-107.7747838|||||3659|12004|Telluride|05/14/1997|
+46239:    188653|Wildhorse Peak|Summit|CO|08|Ouray|091|380048N|1073439W|38.0133281|-107.5775592|||||4037|13245|Wetterhorn Peak|10/13/1978|
+28367:    188420|Dallas|Populated Place|CO|08|Ouray|091|381100N|1074441W|38.1833236|-107.7447813|||||2110|6922|Dallas|10/13/1978|
+46676:    188658|Difficulty Creek|Stream|CO|08|Ouray|091|380354N|1073514W|38.0649939|-107.5872816|380049N|1073621W|38.0136111|-107.6058333|2700|8858|Wetterhorn Peak|10/13/1978|
+53694:    200451|Chaffe Gulch Dentention Number 6 Dam|Dam|CO|08|Ouray|091|381624N|1074320W|38.2733223|-107.7222808|||||2138|7014|Buckhorn Lakes|09/01/1994|
+11911:    187267|Thistledown|Populated Place|CO|08|Ouray|091|375937N|1074159W|37.9936051|-107.6997825|||||2661|8730|Ironton|10/13/1978|
+5619:     187216|Telluride Peak|Summit|CO|08|Ouray|091|375529N|1074408W|37.9247168|-107.7356168|||||4108|13478|Ironton|10/13/1978|
+63707:    1734611|Kerr-Ouray Number Two Mine|Mine|CO|08|Ouray|091|375525N|1074039W|37.9236062|-107.6775606|||||3221|10567|Ironton|05/14/1997|
+41502:    188616|Skyrocket Creek|Stream|CO|08|Ouray|091|380149N|1074028W|38.0302714|-107.6745043|380213N|1073910W|38.0369444|-107.6527778|2340|7677|Ouray|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 33:	what_is		Bridalveil Creek, CO
+
+	The following features were found for Bridalveil Creek, CO
+42061:	Ouray	1074042W	380213N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 34:	what_is		Pleasant Valley Canyon, CO
+
+	The following features were found for Pleasant Valley Canyon, CO
+24762:	Ouray	1075120W	380916N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 35:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+24762:    188394|Pleasant Valley Canyon|Valley|CO|08|Ouray|091|380916N|1075120W|38.1544348|-107.8556181|380845N|1075514W|38.1458237|-107.9206201|2278|7474|Ridgway|10/13/1978|
+42061:    188620|Bridalveil Creek|Stream|CO|08|Ouray|091|380213N|1074042W|38.0369379|-107.6783932|380229N|1073834W|38.0413889|-107.6427778|2326|7631|Ouray|10/13/1978|
+37694:    188587|Blaine Draw|Valley|CO|08|Ouray|091|380512N|1074755W|38.0866584|-107.7986724|380328N|1074805W|38.0577778|-107.8013889|2493|8179|Mount Sneffels|10/13/1978|
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+52941:    197475|Devils Armchair|Basin|CO|08|Chaffee|015|382532N|1061242W|38.425554|-106.2116884|||||3625|11893|Mount Ouray|07/01/1992|
+35964:    188574|South Baldy|Summit|CO|08|Ouray|091|380444N|1074959W|38.0788807|-107.8331178|||||2993|9819|Mount Sneffels|10/13/1978|
+30851:    188437|Alkali Ditch Number 2|Canal|CO|08|Ouray|091|381235N|1074153W|38.2097125|-107.6981145|||||2211|7254|Dallas|10/13/1978|
+24928:    188395|Dipping Vat Creek|Stream|CO|08|Ouray|091|381207N|1075227W|38.201934|-107.8742295|381128N|1075513W|38.1911008|-107.9203422|2579|8461|Ridgway|10/13/1978|
+50605:    189977|Marshall Pass|Gap|CO|08|Saguache|109|382329N|1061450W|38.3913877|-106.2472458|||||3317|10882|Mount Ouray|10/13/1978|
+8040:     187235|American Girl Mine|Mine|CO|08|Ouray|091|375521N|1074129W|37.922495|-107.6914496|||||3152|10341|Ironton|10/13/1978|
+932:      185940|Paradox Road|Trail|CO|08|Ouray|091|381800N|1080439W|38.2999884|-108.0775708|||||2822|9258|Pryor Creek|10/13/1978|
+74154:    1795267|Chief Ouray and Chipeta Memorial|Park|CO|08|Montrose|085|382605N|1075208W|38.4347091|-107.8689513|||||1807|5928|Montrose East|05/18/1998|
+64197:    1734615|Little Balm of Gilead Mine|Mine|CO|08|Ouray|091|375856N|1073914W|37.9822168|-107.6539488|||||2754|9035|Ironton|05/14/1997|
+58553:    1734503|Terrible Mine|Mine|CO|08|Ouray|091|375815N|1074629W|37.970827|-107.7747838|||||3659|12004|Telluride|05/14/1997|
+46239:    188653|Wildhorse Peak|Summit|CO|08|Ouray|091|380048N|1073439W|38.0133281|-107.5775592|||||4037|13245|Wetterhorn Peak|10/13/1978|
+28367:    188420|Dallas|Populated Place|CO|08|Ouray|091|381100N|1074441W|38.1833236|-107.7447813|||||2110|6922|Dallas|10/13/1978|
+46676:    188658|Difficulty Creek|Stream|CO|08|Ouray|091|380354N|1073514W|38.0649939|-107.5872816|380049N|1073621W|38.0136111|-107.6058333|2700|8858|Wetterhorn Peak|10/13/1978|
+53694:    200451|Chaffe Gulch Dentention Number 6 Dam|Dam|CO|08|Ouray|091|381624N|1074320W|38.2733223|-107.7222808|||||2138|7014|Buckhorn Lakes|09/01/1994|
+11911:    187267|Thistledown|Populated Place|CO|08|Ouray|091|375937N|1074159W|37.9936051|-107.6997825|||||2661|8730|Ironton|10/13/1978|
+5619:     187216|Telluride Peak|Summit|CO|08|Ouray|091|375529N|1074408W|37.9247168|-107.7356168|||||4108|13478|Ironton|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 36:	what_is		Corkscrew Gulch, CO
+
+	The following features were found for Corkscrew Gulch, CO
+8538:	Ouray	1074049W	375554N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 37:	what_is		Galena Lion Gulch, CO
+
+	The following features were found for Galena Lion Gulch, CO
+7474:	Ouray	1074128W	375537N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 38:	what_is		Starvation Creek, CO
+
+	The following features were found for Starvation Creek, CO
+50860:	Saguache	1061022W	382355N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 39:	what_is		Alkali Ditch Number 1, CO
+
+	The following features were found for Alkali Ditch Number 1, CO
+30977:	Ouray	1074004W	381054N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 40:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+30977:    188438|Alkali Ditch Number 1|Canal|CO|08|Ouray|091|381054N|1074004W|38.1816578|-107.667837|||||2269|7444|Dallas|10/13/1978|
+50860:    189979|Starvation Creek|Stream|CO|08|Saguache|109|382355N|1061022W|38.3986097|-106.1727983|382205N|1061400W|38.3680546|-106.2333566|2768|9081|Mount Ouray|10/13/1978|
+7474:     187231|Galena Lion Gulch|Valley|CO|08|Ouray|091|375537N|1074128W|37.9269393|-107.6911719|375605N|1074233W|37.9347222|-107.7091667|3059|10036|Ironton|10/13/1978|
+8538:     187239|Corkscrew Gulch|Valley|CO|08|Ouray|091|375554N|1074049W|37.9316617|-107.6803383|375422N|1074022W|37.9061111|-107.6727778|2987|9800|Ironton|10/13/1978|
+24762:    188394|Pleasant Valley Canyon|Valley|CO|08|Ouray|091|380916N|1075120W|38.1544348|-107.8556181|380845N|1075514W|38.1458237|-107.9206201|2278|7474|Ridgway|10/13/1978|
+42061:    188620|Bridalveil Creek|Stream|CO|08|Ouray|091|380213N|1074042W|38.0369379|-107.6783932|380229N|1073834W|38.0413889|-107.6427778|2326|7631|Ouray|10/13/1978|
+37694:    188587|Blaine Draw|Valley|CO|08|Ouray|091|380512N|1074755W|38.0866584|-107.7986724|380328N|1074805W|38.0577778|-107.8013889|2493|8179|Mount Sneffels|10/13/1978|
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+52941:    197475|Devils Armchair|Basin|CO|08|Chaffee|015|382532N|1061242W|38.425554|-106.2116884|||||3625|11893|Mount Ouray|07/01/1992|
+35964:    188574|South Baldy|Summit|CO|08|Ouray|091|380444N|1074959W|38.0788807|-107.8331178|||||2993|9819|Mount Sneffels|10/13/1978|
+30851:    188437|Alkali Ditch Number 2|Canal|CO|08|Ouray|091|381235N|1074153W|38.2097125|-107.6981145|||||2211|7254|Dallas|10/13/1978|
+24928:    188395|Dipping Vat Creek|Stream|CO|08|Ouray|091|381207N|1075227W|38.201934|-107.8742295|381128N|1075513W|38.1911008|-107.9203422|2579|8461|Ridgway|10/13/1978|
+50605:    189977|Marshall Pass|Gap|CO|08|Saguache|109|382329N|1061450W|38.3913877|-106.2472458|||||3317|10882|Mount Ouray|10/13/1978|
+8040:     187235|American Girl Mine|Mine|CO|08|Ouray|091|375521N|1074129W|37.922495|-107.6914496|||||3152|10341|Ironton|10/13/1978|
+932:      185940|Paradox Road|Trail|CO|08|Ouray|091|381800N|1080439W|38.2999884|-108.0775708|||||2822|9258|Pryor Creek|10/13/1978|
+74154:    1795267|Chief Ouray and Chipeta Memorial|Park|CO|08|Montrose|085|382605N|1075208W|38.4347091|-107.8689513|||||1807|5928|Montrose East|05/18/1998|
+64197:    1734615|Little Balm of Gilead Mine|Mine|CO|08|Ouray|091|375856N|1073914W|37.9822168|-107.6539488|||||2754|9035|Ironton|05/14/1997|
+58553:    1734503|Terrible Mine|Mine|CO|08|Ouray|091|375815N|1074629W|37.970827|-107.7747838|||||3659|12004|Telluride|05/14/1997|
+46239:    188653|Wildhorse Peak|Summit|CO|08|Ouray|091|380048N|1073439W|38.0133281|-107.5775592|||||4037|13245|Wetterhorn Peak|10/13/1978|
+28367:    188420|Dallas|Populated Place|CO|08|Ouray|091|381100N|1074441W|38.1833236|-107.7447813|||||2110|6922|Dallas|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 41:	what_is		Terrible Mine, CO
+
+	The following features were found for Terrible Mine, CO
+58553:	Ouray	1074629W	375815N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 42:	what_is		Devils Armchair, CO
+
+	The following features were found for Devils Armchair, CO
+52941:	Chaffee	1061242W	382532N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 43:	what_is		Paradox Road, CO
+
+	The following features were found for Paradox Road, CO
+932:	Ouray	1080439W	381800N
+--------------------------------------------------------------------------------
+;
+;Name Search
+Command 44:	what_is		Dallas, CO
+
+	The following features were found for Dallas, CO
+28367:	Ouray	1074441W	381100N
+--------------------------------------------------------------------------------
+;
+;Debugging
+Command 45:	debug		pool
+
+BufferPool contains the following GIS-Records
+MRU
+28367:    188420|Dallas|Populated Place|CO|08|Ouray|091|381100N|1074441W|38.1833236|-107.7447813|||||2110|6922|Dallas|10/13/1978|
+932:      185940|Paradox Road|Trail|CO|08|Ouray|091|381800N|1080439W|38.2999884|-108.0775708|||||2822|9258|Pryor Creek|10/13/1978|
+52941:    197475|Devils Armchair|Basin|CO|08|Chaffee|015|382532N|1061242W|38.425554|-106.2116884|||||3625|11893|Mount Ouray|07/01/1992|
+58553:    1734503|Terrible Mine|Mine|CO|08|Ouray|091|375815N|1074629W|37.970827|-107.7747838|||||3659|12004|Telluride|05/14/1997|
+30977:    188438|Alkali Ditch Number 1|Canal|CO|08|Ouray|091|381054N|1074004W|38.1816578|-107.667837|||||2269|7444|Dallas|10/13/1978|
+50860:    189979|Starvation Creek|Stream|CO|08|Saguache|109|382355N|1061022W|38.3986097|-106.1727983|382205N|1061400W|38.3680546|-106.2333566|2768|9081|Mount Ouray|10/13/1978|
+7474:     187231|Galena Lion Gulch|Valley|CO|08|Ouray|091|375537N|1074128W|37.9269393|-107.6911719|375605N|1074233W|37.9347222|-107.7091667|3059|10036|Ironton|10/13/1978|
+8538:     187239|Corkscrew Gulch|Valley|CO|08|Ouray|091|375554N|1074049W|37.9316617|-107.6803383|375422N|1074022W|37.9061111|-107.6727778|2987|9800|Ironton|10/13/1978|
+24762:    188394|Pleasant Valley Canyon|Valley|CO|08|Ouray|091|380916N|1075120W|38.1544348|-107.8556181|380845N|1075514W|38.1458237|-107.9206201|2278|7474|Ridgway|10/13/1978|
+42061:    188620|Bridalveil Creek|Stream|CO|08|Ouray|091|380213N|1074042W|38.0369379|-107.6783932|380229N|1073834W|38.0413889|-107.6427778|2326|7631|Ouray|10/13/1978|
+37694:    188587|Blaine Draw|Valley|CO|08|Ouray|091|380512N|1074755W|38.0866584|-107.7986724|380328N|1074805W|38.0577778|-107.8013889|2493|8179|Mount Sneffels|10/13/1978|
+11475:    187264|United States Mountain|Summit|CO|08|Ouray|091|375724N|1074421W|37.9566608|-107.7392276|||||3967|13015|Ironton|10/13/1978|
+35964:    188574|South Baldy|Summit|CO|08|Ouray|091|380444N|1074959W|38.0788807|-107.8331178|||||2993|9819|Mount Sneffels|10/13/1978|
+30851:    188437|Alkali Ditch Number 2|Canal|CO|08|Ouray|091|381235N|1074153W|38.2097125|-107.6981145|||||2211|7254|Dallas|10/13/1978|
+24928:    188395|Dipping Vat Creek|Stream|CO|08|Ouray|091|381207N|1075227W|38.201934|-107.8742295|381128N|1075513W|38.1911008|-107.9203422|2579|8461|Ridgway|10/13/1978|
+50605:    189977|Marshall Pass|Gap|CO|08|Saguache|109|382329N|1061450W|38.3913877|-106.2472458|||||3317|10882|Mount Ouray|10/13/1978|
+8040:     187235|American Girl Mine|Mine|CO|08|Ouray|091|375521N|1074129W|37.922495|-107.6914496|||||3152|10341|Ironton|10/13/1978|
+74154:    1795267|Chief Ouray and Chipeta Memorial|Park|CO|08|Montrose|085|382605N|1075208W|38.4347091|-107.8689513|||||1807|5928|Montrose East|05/18/1998|
+64197:    1734615|Little Balm of Gilead Mine|Mine|CO|08|Ouray|091|375856N|1073914W|37.9822168|-107.6539488|||||2754|9035|Ironton|05/14/1997|
+46239:    188653|Wildhorse Peak|Summit|CO|08|Ouray|091|380048N|1073439W|38.0133281|-107.5775592|||||4037|13245|Wetterhorn Peak|10/13/1978|
+LRU
+--------------------------------------------------------------------------------
+;
+;Exit
+Command 46:	quit
+
+Terminating execution of commands.
+--------------------------------------------------------------------------------
+End Time: Fri May 03 16:35:00 EDT 2013
