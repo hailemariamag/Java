@@ -1,0 +1,5 @@
+2018-06-20 11:24:10,542 WARN  [DefaultSoapUICore] Missing folder [/home/abeliangrape/ext] for external libraries
+2018-06-20 11:24:10,835 INFO  [DefaultSoapUICore] initialized soapui-settings from [/home/abeliangrape/soapui-settings.xml]
+2018-06-20 11:24:11,297 INFO  [WorkspaceImpl] Loading workspace from [/home/abeliangrape/intellij-soapui-workspace.xml]
+2018-06-20 11:29:34,949 INFO  [WorkspaceImpl] Saved workspace to [/home/abeliangrape/intellij-soapui-workspace.xml]
+2018-06-20 11:29:34,954 INFO  [DefaultSoapUICore] Settings saved to [/home/abeliangrape/soapui-settings.xml]
